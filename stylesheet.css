@@ -1,0 +1,35 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    height: 72px;
+    background: #1f2937;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    gap: 30px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+  }
