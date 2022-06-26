@@ -86,9 +86,35 @@ body {
     display: flex;
     justify-content: center;
     gap: 52px;
+    background-color: #f9faf8;
+    text-align: center;
 }
 
 .placeholder2{
     width: 100px;
     height: 100px;
+}
+
+.BOLDTEXT2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+
+}
+
+.UnderHeader2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    gap: 30px;
+    padding-top: 75px;
+    
+}
+
+.QuoteSection{
+    background: #e5e7eb;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
