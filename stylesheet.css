@@ -9,24 +9,23 @@ body {
     height: 72px;
     background: #1f2937;
     color: white;
-    font-size: 16px;
-    font-weight: 900;
+    font-size: 30px;
+    font-weight: bolder;
     display: flex;
     justify-content: space-between;
-    align-items:flex-start;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 30px;
-    gap: 30px;
+    align-items:center;
+    padding-left: 150px;
+    padding-right: 150px;
+
   }
   a{
     text-decoration: none;
     color: white;
+    margin: 8px;
   }
   ul {
     list-style-type: none;
     display: flex;
-    flex-direction: column;
     margin: 0px;
     padding: 0px;
     color: white;
