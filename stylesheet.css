@@ -32,7 +32,7 @@ body {
     font-size: 18px;
     font-weight: 100;
   }
-  img{
+  .placeholder{
     width:500px;
     height:300px;
     padding-right: 150px;
@@ -42,7 +42,7 @@ body {
     display: flex;
     flex-direction: row;
     background: #1f2937;
-    justify-content:;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 200px;
     gap: 30px;
@@ -62,4 +62,33 @@ body {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
+}
+
+.buttons{
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    background-size: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.info{
+    max-width: 200px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.placeholder2{
+    width: 100px;
+    height: 100px;
 }
