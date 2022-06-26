@@ -117,4 +117,26 @@ body {
     background: #e5e7eb;
     padding-top: 200px;
     padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.Quote{
+    font-size: 36px;   
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.Quote_Author{
+ display: flex;
+ justify-content: right;
+ font-size: 24px;
+ font-weight: bolder;
 }
