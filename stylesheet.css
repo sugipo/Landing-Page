@@ -32,3 +32,34 @@ body {
     font-size: 18px;
     font-weight: 100;
   }
+  img{
+    width:500px;
+    height:300px;
+    padding-right: 150px;
+  }
+.UnderHeader{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: row;
+    background: #1f2937;
+    justify-content:;
+    align-items: center;
+    padding-bottom: 200px;
+    gap: 30px;
+}
+.textsection{
+    padding-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.subtext{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.BOLDTEXT{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
