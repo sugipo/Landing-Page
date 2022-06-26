@@ -169,11 +169,11 @@ body {
     border: 2px solid white;
     border-radius: 8px;
     background: #3882f6;
-    background-size: 32px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    background-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     color: #e5e7eb;
     font-weight: bold;
     border-color: white;
@@ -186,4 +186,12 @@ body {
 }
 .subtext2{
     color: white;
+}
+.footer{
+    background-color: #1f2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
